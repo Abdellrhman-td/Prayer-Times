@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer_Times</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="project-container boundaries">
+        <div class="city-date-container">
+            <h1 id="city-header">الرياض</h1>
+            <h4 id="full-date">الجمعية 24 نوفمبر</h4>
+            <hr>
+        </div>
+        <div class="prayer-times-cards">
+            <div class="card">
+                <h3>الفجر</h3>
+                <h4 id="Fajr">4:30</h4>
+            </div>
+            <div class="card">
+                <h3>الشروق</h3>
+                <h4 id="Sunrise">4:30</h4>
+            </div>
+            <div class="card">
+                <h3>الظهر</h3>
+                <h4 id="Dhuhr">4:30</h4>
+            </div>
+            <div class="card">
+                <h3>العصر</h3>
+                <h4 id="Asr">4:30</h4>
+            </div>
+            <div class="card">
+                <h3>المغرب</h3>
+                <h4 id="Sunset">4:30</h4>
+            </div>
+            <div class="card">
+                <h3>العشاء</h3>
+                <h4 id="Isha">4:30</h4>
+            </div>
+        </div>
+        <div class="select-city">
+            <select id="select-city"></select>
+        </div>
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
